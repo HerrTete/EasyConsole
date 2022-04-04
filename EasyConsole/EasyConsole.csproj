@@ -1,25 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Copyright>Copyright ©  2016</Copyright>
-    <FileVersion>1.1.0.0</FileVersion>
-    <AssemblyVersion>1.1.0.0</AssemblyVersion>
-    <Company>splttingatms</Company>
-    <Description>EasyConsole is a library to make it easier for developers to build a simple menu interface for a .NET console application</Description>
-    <RepositoryUrl>https://github.com/splttingatms/EasyConsole</RepositoryUrl>
+    <Copyright>Copyright ©  2022</Copyright>
+    <FileVersion>1.2.0.0</FileVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <Company>HerrTete</Company>
+    <Description>Fork + PRs from EasyConsole. EasyConsole is a library to make it easier for developers to build a simple menu interface for a .NET console application</Description>
+    <RepositoryUrl>https://github.com/HerrTete/EasyConsole</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/splttingatms/EasyConsole</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/HerrTete/EasyConsole</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="EasyConsole.csproj.bak" />
-    <None Remove="Properties\AssemblyInfo.cs.bak" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
-
 </Project>
